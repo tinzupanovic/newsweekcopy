@@ -1,0 +1,5 @@
+Login za admin: Username: Admin
+                Password: admin
+
+Login za user:  Username: user
+                Password: user

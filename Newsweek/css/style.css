@@ -1,0 +1,288 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Arial;
+}
+body {
+    width: 90%;
+    margin: 0 auto;
+    background-color: #f4f5f6;
+}
+
+/* header */
+header {
+    background-color: #f72210;
+    color: white;
+    width: 100%;
+    /* height: 140px; */
+    margin-bottom: 1px;
+}
+#logo {
+    background-image: url("../images/logo.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+    height: 60px;
+    width: 400px;
+    margin: 0 auto;
+}
+header > p {
+    position: relative;
+    width: 20%;
+    top: 60px;
+    left: 20px;
+}
+nav {
+    background-color: white;
+    /* position: relative;
+    bottom: -20px; */
+    width: 100%;
+    height: 42px;
+    margin-top: 10px;
+}
+nav > a {
+	color: black;
+    background-color: white;
+    width: 18%;
+    padding: 12px 0px;
+	float: left;
+	text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+    
+}
+nav > a:hover {
+    color: #f72210;
+}
+.line {
+    height: 26px;
+    margin-top: 8px;
+    border-right: 2px solid #f4f5f6;
+    width: 0px;
+    text-align: center;
+}
+#shape {
+    position: absolute;
+    right: 5%;
+    height: 13px;
+    width: 78px;
+    background-color: #f72210;
+    border-left: 12px solid white;
+    border-top: 13px solid #f72210;
+}
+
+/* main */
+.linking {
+    margin: 20px 0px 0px;
+}
+.linking > a {
+    color: #f72210;
+    font-size: 16px;
+    padding: 20px 0px 0px 2.5%;
+    text-decoration: none;
+    font-weight: bold;
+}
+h2 {
+    color: #f72210;
+    font-size: 16px;
+    padding: 20px 0px 0px 2.5%;
+    text-decoration: none;
+}
+section {
+    background-color: white;
+    width: 100%;
+}
+.flexb {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 100%;
+}
+img {
+    width: 100%;
+    height: 100%;
+}
+.imageaslink {
+    width: 100%;
+    height: 100%;
+}
+#first {
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+}
+.flexb > article {
+    width: 30%;
+    margin-top: 10px;
+}
+.pic {
+    height: 250px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.tldr {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+}
+.linetwo {
+    border-top: 2px solid #f4f5f6;
+    width: 95%;
+    margin: 0 auto;
+    height: 0px;
+    position: relative;
+    top: 10px;
+}
+#lower {
+    margin-top: 0px;
+    padding-bottom: 10px;
+}
+
+/* footer */
+footer {
+    width: 100%;
+    background-color: white;
+    margin-top: 1px;
+    height: 100px;
+}
+footer > p {
+    color: gray;
+    padding: 20px 0px 0px 2.5%;
+    font-size: 12px;
+}
+
+/* clanak.php */
+#story {
+    background-color: white;
+    width: 100%;
+    padding: 20px 2.5% 10px 2.5%;
+}
+#story > h1 {
+    color: #f72210;
+    font-size: 16px;
+    font-weight: bold;
+}
+#story > h2 {
+    padding: 10px 0px;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+#date {
+    font-size: 12px;
+    padding-bottom: 15px;
+}
+#seventh {
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+    width: 100%;
+    height: 550px;
+}
+.tag {
+    width: 90px;
+    background-color: #f72210;
+    color: white;
+    text-align: center;
+    padding: 10px 20px;
+    font-size: 12px;
+    text-decoration: none;
+    float: left;
+    margin: 20px 0px;
+}
+.fclear {
+    clear: both;
+    margin-bottom: 20px;
+    line-height: 1.8;
+}
+.fclear::first-letter {
+    font: bold 60px/55px "Times New Roman",serif;
+    float: left;
+}
+
+/* unos.php */
+.entry {
+    background-color: white;
+    width: 100%;
+    padding: 20px 2.5% 10px 2.5%;
+}
+form {
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.form-item {
+    width: 100%;
+    margin-bottom: 20px;
+}
+.form-field {
+    margin-top: 5px;
+}
+.form-field-textual {
+    width: 100%;
+}
+.red-button {
+    background-color: #f72210;
+    color: white;
+    padding: 10px 20px;
+    border: 1px solid #f72210;
+}
+.red-button:hover {
+    background-color: white;
+    color: #f72210;
+}
+#php-picture {
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+    width: 100%;
+    height: 450px;
+}
+
+/* administracija.php */
+#admin {
+    background-color: white;
+    width: 100%;
+    padding: 20px 2.5% 10px 2.5%;
+}
+.admin-form {
+    margin-top: 20px;
+}
+
+/* registracija.php */
+.msgColor {
+    color: #f72210;
+}
+.gotoreg {
+    color: #f72210;
+    font-size: 16px;
+    
+}
+.gotoreg:hover {
+    color: #e76458ec;
+}
+.spc {
+    margin: 10px;
+}
+.logoutbutton {
+    position: absolute;
+    right: 7%;
+    top: 20px;
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+.logoutbutton:hover {
+    color: white;
+}
+
+#linkstocategory {
+    color: #f72210;
+    font-size: 16px;
+    padding-top: 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
